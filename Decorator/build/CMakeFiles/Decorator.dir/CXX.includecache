@@ -1,0 +1,30 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/Decorator.h
+Giant.h
+-
+
+../include/Giant.h
+string
+-
+iostream
+-
+
+/Users/jaden_liu/@r35191007/DesPat/Decorator/src/Giant.cpp
+Giant.h
+-
+
+/Users/jaden_liu/@r35191007/DesPat/Decorator/test.cpp
+iostream
+-
+Decorator.h
+-
+Giant.h
+-
+
