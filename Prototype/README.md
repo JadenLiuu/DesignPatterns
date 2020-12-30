@@ -20,5 +20,8 @@
 - Use a factory to create all of the types in beforehand, clone the objects via the factory.
   - Remember to delete the concreted prototypes!
 
+### Design UML in the example.
+![Prototype](./doc/prototype.png)
+
 > Reference
 - https://refactoring.guru/design-patterns/prototype/cpp/example
