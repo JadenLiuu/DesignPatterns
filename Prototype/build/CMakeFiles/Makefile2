@@ -72,8 +72,8 @@ CMAKE_BINARY_DIR = /Users/jaden_liu/@r35191007/DesPat/Prototype/build
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
-all: CMakeFiles/PrototypeFac.dir/all
-all: CMakeFiles/Prototype.dir/all
+all: CMakeFiles/PrototypeFac.bin.dir/all
+all: CMakeFiles/Prototype.bin.dir/all
 
 .PHONY : all
 
@@ -83,64 +83,64 @@ preinstall:
 .PHONY : preinstall
 
 # The main recursive "clean" target.
-clean: CMakeFiles/PrototypeFac.dir/clean
-clean: CMakeFiles/Prototype.dir/clean
+clean: CMakeFiles/PrototypeFac.bin.dir/clean
+clean: CMakeFiles/Prototype.bin.dir/clean
 
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/PrototypeFac.dir
+# Target rules for target CMakeFiles/PrototypeFac.bin.dir
 
 # All Build rule for target.
-CMakeFiles/PrototypeFac.dir/all:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/PrototypeFac.dir/build.make CMakeFiles/PrototypeFac.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/PrototypeFac.dir/build.make CMakeFiles/PrototypeFac.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/jaden_liu/@r35191007/DesPat/Prototype/build/CMakeFiles --progress-num=5,6,7,8 "Built target PrototypeFac"
-.PHONY : CMakeFiles/PrototypeFac.dir/all
+CMakeFiles/PrototypeFac.bin.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/PrototypeFac.bin.dir/build.make CMakeFiles/PrototypeFac.bin.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/PrototypeFac.bin.dir/build.make CMakeFiles/PrototypeFac.bin.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/jaden_liu/@r35191007/DesPat/Prototype/build/CMakeFiles --progress-num=5,6,7,8 "Built target PrototypeFac.bin"
+.PHONY : CMakeFiles/PrototypeFac.bin.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/PrototypeFac.dir/rule: cmake_check_build_system
+CMakeFiles/PrototypeFac.bin.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/jaden_liu/@r35191007/DesPat/Prototype/build/CMakeFiles 4
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/PrototypeFac.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/PrototypeFac.bin.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/jaden_liu/@r35191007/DesPat/Prototype/build/CMakeFiles 0
-.PHONY : CMakeFiles/PrototypeFac.dir/rule
+.PHONY : CMakeFiles/PrototypeFac.bin.dir/rule
 
 # Convenience name for target.
-PrototypeFac: CMakeFiles/PrototypeFac.dir/rule
+PrototypeFac.bin: CMakeFiles/PrototypeFac.bin.dir/rule
 
-.PHONY : PrototypeFac
+.PHONY : PrototypeFac.bin
 
 # clean rule for target.
-CMakeFiles/PrototypeFac.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/PrototypeFac.dir/build.make CMakeFiles/PrototypeFac.dir/clean
-.PHONY : CMakeFiles/PrototypeFac.dir/clean
+CMakeFiles/PrototypeFac.bin.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/PrototypeFac.bin.dir/build.make CMakeFiles/PrototypeFac.bin.dir/clean
+.PHONY : CMakeFiles/PrototypeFac.bin.dir/clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/Prototype.dir
+# Target rules for target CMakeFiles/Prototype.bin.dir
 
 # All Build rule for target.
-CMakeFiles/Prototype.dir/all:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Prototype.dir/build.make CMakeFiles/Prototype.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Prototype.dir/build.make CMakeFiles/Prototype.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/jaden_liu/@r35191007/DesPat/Prototype/build/CMakeFiles --progress-num=1,2,3,4 "Built target Prototype"
-.PHONY : CMakeFiles/Prototype.dir/all
+CMakeFiles/Prototype.bin.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Prototype.bin.dir/build.make CMakeFiles/Prototype.bin.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Prototype.bin.dir/build.make CMakeFiles/Prototype.bin.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/jaden_liu/@r35191007/DesPat/Prototype/build/CMakeFiles --progress-num=1,2,3,4 "Built target Prototype.bin"
+.PHONY : CMakeFiles/Prototype.bin.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/Prototype.dir/rule: cmake_check_build_system
+CMakeFiles/Prototype.bin.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/jaden_liu/@r35191007/DesPat/Prototype/build/CMakeFiles 4
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/Prototype.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/Prototype.bin.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/jaden_liu/@r35191007/DesPat/Prototype/build/CMakeFiles 0
-.PHONY : CMakeFiles/Prototype.dir/rule
+.PHONY : CMakeFiles/Prototype.bin.dir/rule
 
 # Convenience name for target.
-Prototype: CMakeFiles/Prototype.dir/rule
+Prototype.bin: CMakeFiles/Prototype.bin.dir/rule
 
-.PHONY : Prototype
+.PHONY : Prototype.bin
 
 # clean rule for target.
-CMakeFiles/Prototype.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Prototype.dir/build.make CMakeFiles/Prototype.dir/clean
-.PHONY : CMakeFiles/Prototype.dir/clean
+CMakeFiles/Prototype.bin.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Prototype.bin.dir/build.make CMakeFiles/Prototype.bin.dir/clean
+.PHONY : CMakeFiles/Prototype.bin.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

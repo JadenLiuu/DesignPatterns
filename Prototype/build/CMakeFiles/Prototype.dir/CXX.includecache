@@ -11,6 +11,8 @@ string
 -
 iostream
 -
+thread
+-
 
 ../include/TypeResume.h
 Resume.h

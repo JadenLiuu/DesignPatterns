@@ -18,5 +18,5 @@ file(GLOB all_SRCS
     "${PROJECT_SOURCE_DIR}/src/*.cpp"
     "${PROJECT_SOURCE_DIR}/include/*.h"
 )
-add_executable(Prototype ${all_SRCS} test_wo_factory.cpp)
-add_executable(PrototypeFac ${all_SRCS} test_with_factory.cpp)
+add_executable(Prototype.bin ${all_SRCS} test_wo_factory.cpp)
+add_executable(PrototypeFac.bin ${all_SRCS} test_with_factory.cpp)

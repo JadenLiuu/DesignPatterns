@@ -130,30 +130,30 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named PrototypeFac
+# Target rules for targets named PrototypeFac.bin
 
 # Build rule for target.
-PrototypeFac: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 PrototypeFac
-.PHONY : PrototypeFac
+PrototypeFac.bin: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 PrototypeFac.bin
+.PHONY : PrototypeFac.bin
 
 # fast build rule for target.
-PrototypeFac/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/PrototypeFac.dir/build.make CMakeFiles/PrototypeFac.dir/build
-.PHONY : PrototypeFac/fast
+PrototypeFac.bin/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/PrototypeFac.bin.dir/build.make CMakeFiles/PrototypeFac.bin.dir/build
+.PHONY : PrototypeFac.bin/fast
 
 #=============================================================================
-# Target rules for targets named Prototype
+# Target rules for targets named Prototype.bin
 
 # Build rule for target.
-Prototype: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Prototype
-.PHONY : Prototype
+Prototype.bin: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Prototype.bin
+.PHONY : Prototype.bin
 
 # fast build rule for target.
-Prototype/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Prototype.dir/build.make CMakeFiles/Prototype.dir/build
-.PHONY : Prototype/fast
+Prototype.bin/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Prototype.bin.dir/build.make CMakeFiles/Prototype.bin.dir/build
+.PHONY : Prototype.bin/fast
 
 src/Resume.o: src/Resume.cpp.o
 
@@ -161,8 +161,8 @@ src/Resume.o: src/Resume.cpp.o
 
 # target to build an object file
 src/Resume.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/PrototypeFac.dir/build.make CMakeFiles/PrototypeFac.dir/src/Resume.cpp.o
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Prototype.dir/build.make CMakeFiles/Prototype.dir/src/Resume.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/PrototypeFac.bin.dir/build.make CMakeFiles/PrototypeFac.bin.dir/src/Resume.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Prototype.bin.dir/build.make CMakeFiles/Prototype.bin.dir/src/Resume.cpp.o
 .PHONY : src/Resume.cpp.o
 
 src/Resume.i: src/Resume.cpp.i
@@ -171,8 +171,8 @@ src/Resume.i: src/Resume.cpp.i
 
 # target to preprocess a source file
 src/Resume.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/PrototypeFac.dir/build.make CMakeFiles/PrototypeFac.dir/src/Resume.cpp.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Prototype.dir/build.make CMakeFiles/Prototype.dir/src/Resume.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/PrototypeFac.bin.dir/build.make CMakeFiles/PrototypeFac.bin.dir/src/Resume.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Prototype.bin.dir/build.make CMakeFiles/Prototype.bin.dir/src/Resume.cpp.i
 .PHONY : src/Resume.cpp.i
 
 src/Resume.s: src/Resume.cpp.s
@@ -181,8 +181,8 @@ src/Resume.s: src/Resume.cpp.s
 
 # target to generate assembly for a file
 src/Resume.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/PrototypeFac.dir/build.make CMakeFiles/PrototypeFac.dir/src/Resume.cpp.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Prototype.dir/build.make CMakeFiles/Prototype.dir/src/Resume.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/PrototypeFac.bin.dir/build.make CMakeFiles/PrototypeFac.bin.dir/src/Resume.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Prototype.bin.dir/build.make CMakeFiles/Prototype.bin.dir/src/Resume.cpp.s
 .PHONY : src/Resume.cpp.s
 
 src/TypeResume.o: src/TypeResume.cpp.o
@@ -191,8 +191,8 @@ src/TypeResume.o: src/TypeResume.cpp.o
 
 # target to build an object file
 src/TypeResume.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/PrototypeFac.dir/build.make CMakeFiles/PrototypeFac.dir/src/TypeResume.cpp.o
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Prototype.dir/build.make CMakeFiles/Prototype.dir/src/TypeResume.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/PrototypeFac.bin.dir/build.make CMakeFiles/PrototypeFac.bin.dir/src/TypeResume.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Prototype.bin.dir/build.make CMakeFiles/Prototype.bin.dir/src/TypeResume.cpp.o
 .PHONY : src/TypeResume.cpp.o
 
 src/TypeResume.i: src/TypeResume.cpp.i
@@ -201,8 +201,8 @@ src/TypeResume.i: src/TypeResume.cpp.i
 
 # target to preprocess a source file
 src/TypeResume.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/PrototypeFac.dir/build.make CMakeFiles/PrototypeFac.dir/src/TypeResume.cpp.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Prototype.dir/build.make CMakeFiles/Prototype.dir/src/TypeResume.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/PrototypeFac.bin.dir/build.make CMakeFiles/PrototypeFac.bin.dir/src/TypeResume.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Prototype.bin.dir/build.make CMakeFiles/Prototype.bin.dir/src/TypeResume.cpp.i
 .PHONY : src/TypeResume.cpp.i
 
 src/TypeResume.s: src/TypeResume.cpp.s
@@ -211,8 +211,8 @@ src/TypeResume.s: src/TypeResume.cpp.s
 
 # target to generate assembly for a file
 src/TypeResume.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/PrototypeFac.dir/build.make CMakeFiles/PrototypeFac.dir/src/TypeResume.cpp.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Prototype.dir/build.make CMakeFiles/Prototype.dir/src/TypeResume.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/PrototypeFac.bin.dir/build.make CMakeFiles/PrototypeFac.bin.dir/src/TypeResume.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Prototype.bin.dir/build.make CMakeFiles/Prototype.bin.dir/src/TypeResume.cpp.s
 .PHONY : src/TypeResume.cpp.s
 
 test_with_factory.o: test_with_factory.cpp.o
@@ -221,7 +221,7 @@ test_with_factory.o: test_with_factory.cpp.o
 
 # target to build an object file
 test_with_factory.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/PrototypeFac.dir/build.make CMakeFiles/PrototypeFac.dir/test_with_factory.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/PrototypeFac.bin.dir/build.make CMakeFiles/PrototypeFac.bin.dir/test_with_factory.cpp.o
 .PHONY : test_with_factory.cpp.o
 
 test_with_factory.i: test_with_factory.cpp.i
@@ -230,7 +230,7 @@ test_with_factory.i: test_with_factory.cpp.i
 
 # target to preprocess a source file
 test_with_factory.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/PrototypeFac.dir/build.make CMakeFiles/PrototypeFac.dir/test_with_factory.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/PrototypeFac.bin.dir/build.make CMakeFiles/PrototypeFac.bin.dir/test_with_factory.cpp.i
 .PHONY : test_with_factory.cpp.i
 
 test_with_factory.s: test_with_factory.cpp.s
@@ -239,7 +239,7 @@ test_with_factory.s: test_with_factory.cpp.s
 
 # target to generate assembly for a file
 test_with_factory.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/PrototypeFac.dir/build.make CMakeFiles/PrototypeFac.dir/test_with_factory.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/PrototypeFac.bin.dir/build.make CMakeFiles/PrototypeFac.bin.dir/test_with_factory.cpp.s
 .PHONY : test_with_factory.cpp.s
 
 test_wo_factory.o: test_wo_factory.cpp.o
@@ -248,7 +248,7 @@ test_wo_factory.o: test_wo_factory.cpp.o
 
 # target to build an object file
 test_wo_factory.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Prototype.dir/build.make CMakeFiles/Prototype.dir/test_wo_factory.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Prototype.bin.dir/build.make CMakeFiles/Prototype.bin.dir/test_wo_factory.cpp.o
 .PHONY : test_wo_factory.cpp.o
 
 test_wo_factory.i: test_wo_factory.cpp.i
@@ -257,7 +257,7 @@ test_wo_factory.i: test_wo_factory.cpp.i
 
 # target to preprocess a source file
 test_wo_factory.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Prototype.dir/build.make CMakeFiles/Prototype.dir/test_wo_factory.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Prototype.bin.dir/build.make CMakeFiles/Prototype.bin.dir/test_wo_factory.cpp.i
 .PHONY : test_wo_factory.cpp.i
 
 test_wo_factory.s: test_wo_factory.cpp.s
@@ -266,7 +266,7 @@ test_wo_factory.s: test_wo_factory.cpp.s
 
 # target to generate assembly for a file
 test_wo_factory.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Prototype.dir/build.make CMakeFiles/Prototype.dir/test_wo_factory.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Prototype.bin.dir/build.make CMakeFiles/Prototype.bin.dir/test_wo_factory.cpp.s
 .PHONY : test_wo_factory.cpp.s
 
 # Help Target
@@ -277,8 +277,8 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
-	@echo "... Prototype"
-	@echo "... PrototypeFac"
+	@echo "... Prototype.bin"
+	@echo "... PrototypeFac.bin"
 	@echo "... src/Resume.o"
 	@echo "... src/Resume.i"
 	@echo "... src/Resume.s"

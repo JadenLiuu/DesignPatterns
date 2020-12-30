@@ -2,6 +2,7 @@
 #define RESUME_H
 #include <string>
 #include <iostream>
+#include <thread>
 using namespace std;
 
 enum Gender{
@@ -27,11 +28,13 @@ protected:
 public:
     Resume(string company): company_(company) {
         color = "";
+        // Need to do lots of things! waste lot of time!
+        std::this_thread::sleep_for(1s);
     };
-    virtual Resume* clone(string company) const = 0;
     virtual ~Resume() {};
     void show();
     void setter(string& company);
+    virtual Resume* clone(string company) const = 0;
 };
 
 #endif

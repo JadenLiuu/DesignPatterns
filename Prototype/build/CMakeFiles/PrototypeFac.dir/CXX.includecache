@@ -19,10 +19,20 @@ string
 -
 iostream
 -
+thread
+-
 
 ../include/TypeResume.h
 Resume.h
 ../include/Resume.h
+
+/Users/jaden_liu/@r35191007/DesPat/Prototype/src/Resume.cpp
+Resume.h
+-
+
+/Users/jaden_liu/@r35191007/DesPat/Prototype/src/TypeResume.cpp
+TypeResume.h
+/Users/jaden_liu/@r35191007/DesPat/Prototype/src/TypeResume.h
 
 /Users/jaden_liu/@r35191007/DesPat/Prototype/test_with_factory.cpp
 iostream

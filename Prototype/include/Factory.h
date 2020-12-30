@@ -17,6 +17,7 @@ public:
     };
     ~Factory(){
         for(auto pair : facResumes){
+            cout << "deleting Resume prototype: " << pair.first << endl;
             delete pair.second;
         }
     }
