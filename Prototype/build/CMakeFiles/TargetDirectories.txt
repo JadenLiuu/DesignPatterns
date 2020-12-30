@@ -1,0 +1,4 @@
+/Users/jaden_liu/@r35191007/DesPat/Prototype/build/CMakeFiles/rebuild_cache.dir
+/Users/jaden_liu/@r35191007/DesPat/Prototype/build/CMakeFiles/edit_cache.dir
+/Users/jaden_liu/@r35191007/DesPat/Prototype/build/CMakeFiles/PrototypeFac.dir
+/Users/jaden_liu/@r35191007/DesPat/Prototype/build/CMakeFiles/Prototype.dir

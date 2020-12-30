@@ -1,0 +1,34 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/Resume.h
+string
+-
+iostream
+-
+
+../include/TypeResume.h
+Resume.h
+../include/Resume.h
+
+/Users/jaden_liu/@r35191007/DesPat/Prototype/src/Resume.cpp
+Resume.h
+-
+
+/Users/jaden_liu/@r35191007/DesPat/Prototype/src/TypeResume.cpp
+TypeResume.h
+/Users/jaden_liu/@r35191007/DesPat/Prototype/src/TypeResume.h
+
+/Users/jaden_liu/@r35191007/DesPat/Prototype/test_wo_factory.cpp
+iostream
+-
+Resume.h
+/Users/jaden_liu/@r35191007/DesPat/Prototype/Resume.h
+TypeResume.h
+/Users/jaden_liu/@r35191007/DesPat/Prototype/TypeResume.h
+

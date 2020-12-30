@@ -1,0 +1,32 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/Factory.h
+Resume.h
+../include/Resume.h
+TypeResume.h
+../include/TypeResume.h
+unordered_map
+-
+
+../include/Resume.h
+string
+-
+iostream
+-
+
+../include/TypeResume.h
+Resume.h
+../include/Resume.h
+
+/Users/jaden_liu/@r35191007/DesPat/Prototype/test_with_factory.cpp
+iostream
+-
+Factory.h
+/Users/jaden_liu/@r35191007/DesPat/Prototype/Factory.h
+

@@ -1,0 +1,1 @@
+/Library/Developer/CommandLineTools/usr/bin/c++ -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.0.sdk -mmacosx-version-min=10.15 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/Prototype.dir/src/Resume.cpp.o CMakeFiles/Prototype.dir/src/TypeResume.cpp.o CMakeFiles/Prototype.dir/test_wo_factory.cpp.o -o Prototype 
